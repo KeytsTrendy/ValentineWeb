@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Happy Valentine's Day, My Love!</h1>
+        <p>A special surprise just for you ❤</p>
+    </header>
+
+    <section id="love-story">
+        <h2>Our Love Story</h2>
+        <p>We met on a beautiful day, and since then, my life has been filled with happiness...</p>
+        <img src="images/love.jpg" alt="Our Love Story">
+    </section>
+
+    <section id="memories">
+        <h2>Our Beautiful Memories</h2>
+        <video controls>
+            <source src="videos/memories.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="messages">
+        <h2>A Special Message for You</h2>
+        <audio controls>
+            <source src="audio/love-message.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section id="quiz">
+        <h2>How Well Do You Know Us?</h2>
+        <p>Click below to start the quiz!</p>
+        <button onclick="startQuiz()">Start Quiz</button>
+        <p id="quiz-result"></p>
+    </section>
+
+    <section id="surprise">
+        <h2>Surprise Gift</h2>
+        <p>Click the heart below to reveal your special surprise!</p>
+        <button onclick="revealSurprise()">❤</button>
+        <p id="gift-message" style="display: none;">We're going on a romantic dinner on the next valentine! 🌹</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
